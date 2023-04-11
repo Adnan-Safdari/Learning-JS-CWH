@@ -15,7 +15,7 @@ const game = (answer, attempts) => {
         userInput = Number.parseInt(userInput);  // converting string to number
 
         if (userInput != answer) {
-            // printing if the actual answer is greate or lower than the user's input
+            // printing if the actual answer is greater or lower than the user's input
             console.log(`The answer is ${(answer > userInput) ? 'greater' : 'lower'} than ${userInput}\n`);
             attempts--;  // reducing one chance for wrong attempt
         }
